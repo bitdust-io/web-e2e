@@ -11,6 +11,8 @@
   "license": "ISC",
   "private": true,
   "devDependencies": {
-    "cypress": "3.2.0"
+    "cypress": "3.2.0",
+    "mocha": "5.2.0",
+    "mochawesome": "3.1.1"
   }
 }
