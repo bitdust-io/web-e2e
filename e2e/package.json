@@ -1,0 +1,16 @@
+{
+  "name": "bitdust-web-e2e",
+  "version": "1.0.0",
+  "description": "BitDust web e2e tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Renato Cardoso <re2005@gmail.com> (https://notfound.com.br/)",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "cypress": "3.2.0"
+  }
+}
