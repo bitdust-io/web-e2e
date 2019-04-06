@@ -1,0 +1,25 @@
+{
+  "name": "bitdust-web-e2e",
+  "version": "1.0.0",
+  "description": "BitDust web e2e running Cypress tests against Apache server via docker-compose",
+  "scripts": {
+    "build": "docker-compose build",
+    "up": "docker-compose up --abort-on-container-exit --exit-code-from e2e",
+    "effective:config": "circleci config process circle.yml | sed /^#/d"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitdust-io/web-e2e.git"
+  },
+  "keywords": [
+    "bitdust",
+    "cypress",
+    "cypress-io",
+    "docker",
+    "docker-compose"
+  ],
+  "author": "Renato Cardoso <re2005@gmail.com> (https://notfound.com.br/)",
+  "license": "GPL",
+  "private": true,
+  "homepage": "https://bitdust.io/"
+}
